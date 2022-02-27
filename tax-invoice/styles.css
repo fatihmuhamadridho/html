@@ -1,0 +1,66 @@
+body {
+    width: 100%; height: 100%;
+    margin: 0px; padding: 0px;
+    background: #F12369;
+}
+
+body * {
+    box-sizing: border-box;
+    margin: 0px; padding: 0px;
+}
+
+.container {
+    width: 100%; height: 100%;
+    padding: 80px;
+    background: #F12369;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vl {
+    width: 100%;
+    margin: 0px; padding: 0px;
+    display: block;
+    border-bottom: 1px solid #E8EAED;
+}
+
+.taxInvoice {
+    width: 600px; height: 850px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 30px 25px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.header_detail {
+    margin-left: 15px;
+}
+
+section {
+    padding: 30px 45px;
+    display: flex;
+}
+
+section ul li {
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.section_header {
+    margin-bottom: 18px;
+    color: #8384A0;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
