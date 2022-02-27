@@ -65,23 +65,8 @@ section ul li {
     line-height: 18px;
 }
 
-@media (max-width: 375px) {
-    .taxInvoice {
-        height: 100%;
-    }
-
-    .section1_ul {
-        margin: 0px !important;
-    }
-
-    .section_header {
-        font-size: 12px;
-        margin-right: 12px;
-    }
-
-    section ul {
-        width: 100%; height: 100%;
-        font-size: 14px;
-        text-align: start !important;
+@media (max-width: 425px) {
+    .container {
+        width: 250%; height: 100%;
     }
 }
