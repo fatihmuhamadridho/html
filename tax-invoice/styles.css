@@ -69,5 +69,6 @@ section ul li {
         width: 250%;
         display: flex;
         align-items: center;
+        transform: translateY(350px);
     }
 }
